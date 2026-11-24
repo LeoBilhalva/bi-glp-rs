@@ -17,7 +17,7 @@ Abra o arquivo **GLP_BI_Analytics.ipynb** no Google Colab e use **Ambiente de ex
 
 Para consultar os dashboards publicados, abra o notebook no Google Colab pelo link acima. As saídas salvas também podem ser vistas no próprio GitHub.
 
-Para usar as cópias HTML a partir de um clone do repositório, execute **python run.py** uma vez. O comando gera o banco, os resultados CSV e a biblioteca Plotly local em dashboards. Depois, abra **dashboards/01_mercado.html**. O ZIP de entrega contém as cópias offline já preparadas.
+Para usar as cópias HTML a partir de um clone do repositório, instale as dependências e execute **python coletar_fontes.py** e **python run.py** uma vez. O comando gera o banco, os resultados CSV e a biblioteca Plotly local em dashboards. Depois, abra **dashboards/01_mercado.html**. O ZIP de entrega contém as cópias offline já preparadas.
 
 ## Execução local
 
@@ -77,4 +77,4 @@ Foram executados seis testes, incluindo reexecução da carga e ausência de vaz
 
 O limite de cinco coletas é uma regra de exibição. Conferir duas publicações da ANP avalia a transformação dos dados. O projeto não mede precisão do levantamento em campo, lucro da rede, demanda ou efeito causal de mudanças de preço.
 
-A escolha de Google Colab usa uma plataforma permitida no enunciado. Python e SQLite continuam no tratamento e no armazenamento. O notebook publicado no Colab substitui a visualização inicialmente planejada em Power BI.
+A escolha de Google Colab usa uma plataforma permitida no enunciado. Python e SQLite continuam no tratamento e no armazenamento. O notebook disponível para abertura no Colab substitui a visualização inicialmente planejada em Power BI.
